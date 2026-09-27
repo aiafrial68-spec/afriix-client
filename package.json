@@ -1,0 +1,19 @@
+{
+  "name": "wa-cs-bot",
+  "version": "1.0.0",
+  "description": "AfriIX - Bot WhatsApp Pribadi + AI (Baileys)",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "owner-dash": "node owner-dash.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "6.7.24",
+    "axios": "^1.7.0",
+    "dotenv": "^16.4.5",
+    "pino": "^9.0.0",
+    "qrcode-terminal": "^0.12.0",
+    "sharp": "^0.35.4"
+  }
+}
